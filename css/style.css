@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ededed;
+    padding: 5%;
+}
+
+body, input, button {
+    font-family: Arial;
+    font-size: 22px;
+}
+
+input, button {
+    padding: 10px 30px;
+}
+
+input {
+    border: 1px solid #999;
+}
+
+button {
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    opacity: .8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.form {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5%;
+    text-align: center;
+
+    max-width: 400px;
+    box-shadow: 0 0 20px #ccc;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_add {
+    margin: 50px 30px;
+}
+
+form.input {
+    width: calc(100% - 62px);
+}
+
+.form h3,
+.form_add h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.form_field {
+    margin-bottom: 30px;
+}
+
+.contacts .logout {
+    margin-bottom: 30px;
+}
+
+.contacts_list ul {
+    list-style: none;
+}
+
+.contacts_list li {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 20px 0;
+    clear: both;
+}
+
+.contacts_list .id {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ededed;
+    float: left;
+    margin-right: 20px;
+}
+
+.contacts_list .name {
+    font-weight: bold;
+}
